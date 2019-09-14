@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mickey mouse</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('img/actual2.jpg')">
+	<header>
+	<h1>
+		<P>
+			<center>Historia de Mickey Mouese</center>
+		</P>
+	</h1>
+    <center><img src="img/img3.jpg" width="200" height="250" alt=""/> </center>
+	
+		 <center><p>El ratón de los pantalones rojos y zapatos amarillos, cuyo primer nombre fuese Mortimer, fue pensado por Walt Disney en marzo de 1927 durante un viaje de Nueva York a Los Ángeles. Walt había perdido recientemente los derechos de la serie Oswald the Rabbit, así como un gran número de los animadores que trabajaban con él. Pero el cineasta declaró que ni eso le impidió perder las esperanzas.
+		
+		“Entre todos los problemas y la confusión apareció una pequeña figurita burlona. Vaga e indefinida al principio. Pero creció y creció y creció. Y finalmente llegó a un ratón. Un juguetón y alegre ratoncito… La idea me envolvió por completo. (…) Para cuando el tren había llegado al Medio Oeste ya había vestido a mi ratón de ensueño en un par de pantalones rojos de terciopelo con dos grandes botones aperlados, había compuesto el primer escenario y todo estaba listo”.
+		 Una vez en California el proceso de creación del famoso ratón, llamado en ese entonces Mortimer, comenzó en secreto. Como sugerencia de su esposa Lillian, el nombre fue modificado por el de Mickey que sonaba menos presuntuoso. El dibujo quedó a cargo de Ubbe Ert Iwerks, a quien Walt ya había conocido en 1919 cuando los dos intentaban convertirse en animadores. Ub, como se le conocía, tenía una gran facilidad para dibujar, algo en lo que Walt nunca fue lo suficientemente bueno, lo que le impidió poner en papel sus creaciones. Ub, dibujó secretamente las dos primeras caricaturas del personaje: Plane Crazy, basado en el vuelo de Lindbergh, y The Gallopin´Gaucho, en el que Mickey era un bravucón inspirado en el director y cineasta Douglas Fairbanks. </p></center>
+		
+		<p>
+			<center>
+				<h2>Imagen Antes Y Después De MICKEY MOUSE:</h2>
+			</center>
+		</p>
+		<center>
+			<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('actual','','img/actual2.jpg',1)"><img src="img/actual1.jpg" alt="" width="273" height="298" id="actual"></a></p>
+		</center>
+		
+		<h3>
+			<center>
+				<p><i>Para las personas que no les gusta leer Aquí ahi un link de  video: <p>https://www.youtube.com/watch?v=hHAiig-WhUY</p></i></p>
+			</center>
+		</h3>
+	  <form>
+		  <input type="checkbox"> Acepto los terminos y condicones.
+      </form>
+	</header>
+	
+	<footer>
+		Creado Por Juan José &reg;
+	</footer>
+</body>
+</html>
